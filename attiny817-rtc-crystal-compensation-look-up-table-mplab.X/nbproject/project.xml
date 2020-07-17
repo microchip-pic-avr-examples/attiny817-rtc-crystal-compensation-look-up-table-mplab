@@ -3,7 +3,7 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>RTCCrystalCompensationLook-UpTable</name>
+            <name>attiny817-rtc-crystal-compensation-look-up-table-mplab</name>
             <creation-uuid>ea821b87-d486-49b2-951c-d3f09373960a</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>
