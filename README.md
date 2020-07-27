@@ -3,7 +3,7 @@
 
 # RTC Crystal Compensation Look-Up Table
 
-This example uses a look-up table to do temperature compensation. The look-up table is built from the manufacturers data on temperature drift. As the values are symmetrical around 25C (parabolic curve), only values for 25C and higher are used, to reduce data size. There are two tables included in this example, one using 8-bit data, and one with 16-bit data. 8-bit data offers reduced datasize, but it gives lower accuracy. There are also two defined values associated with the table.
+This example uses a look-up table to do temperature compensation. The look-up table is built from the manufacturers data on temperature drift. As the values are symmetrical around 25&deg;C (parabolic curve), only values for 25&deg;C and higher are used, to reduce data size. There are two tables included in this example, one using 8-bit data, and one with 16-bit data. 8-bit data offers reduced datasize, but it gives lower accuracy. There are also two defined values associated with the table.
 
 The application sets up the ADC to read the internal temperature sensor. The resulting temperature value is used to pick a correction value from the look-up table, which is added to the accumulated error.
 
