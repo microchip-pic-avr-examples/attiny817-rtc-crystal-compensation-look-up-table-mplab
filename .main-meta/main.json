@@ -3,7 +3,7 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.mplab.project.attiny817-rtc-crystal-compensation-look-up-table-mplab",
+        "name": "com.microchip.mcu8.mplabx.project.attiny817-rtc-crystal-compensation-look-up-table-mplab",
         "version": "1.0.0",
         "displayName": "RTC Crystal Compensation Look-Up Table",
         "projectName": "attiny817-rtc-crystal-compensation-look-up-table-mplab",
@@ -56,8 +56,6 @@
             "RTC"
         ],
         "keywords": [
-            "",
-            ""
         ],
         "additionalData": {
             "longDescription": {
