@@ -4,18 +4,18 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.attiny817-rtc-crystal-compensation-look-up-table-mplab",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "displayName": "RTC Crystal Compensation Look-Up Table",
         "projectName": "attiny817-rtc-crystal-compensation-look-up-table-mplab",
         "shortDescription": "This example uses a look-up table to do temperature compensation in order to keep the clock more accurate.",
         "ide": {
-            "name": "MPLABX",
-            "semverRange": ">=5.40"
+            "name": "MPLAB X",
+            "semverRange": ">=5.40.0"
         },
         "compiler": [
             {
                 "name": "XC8",
-                "semverRange": "^2.29"
+                "semverRange": "^2.29.0"
             }
         ],
         "dfp": {
@@ -56,6 +56,9 @@
             "RTC"
         ],
         "keywords": [
+            "Crystal", 
+            "Internal Temperature Sensor",
+            "Calibration"
         ],
         "additionalData": {
             "longDescription": {
